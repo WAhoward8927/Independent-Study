@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="http://icons.veryicon.com/ico/System/Seo%201/seo%20penguin.ico" rel="SHORTCUT ICON">      //設定icon
+        <meta charset="UTF-8" />  //中文化設定
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <script src="sd/jquery-2.0.3.min.js"></script>    //呼叫jquery-2.0.3.min.js
+        <script src="sd/script.2.js"></script>   //呼叫script.2.js
+        <link rel="stylesheet" type="text/css" href="sd/jason.css">  //呼叫jason.css
+        <title>Relay Control</title>  //標題
+</head>
+<center>
+<body>
+        <h2>繼電器開關</h2>   //標題
+        <HR color="red" size="10">   //分隔線
+        <form>
+        <input type="button" id="on" class="commandButton1" value="On" onClick="relayOn()"/>      //on按鈕
+        <input type="button" id="off" class="commandButton2" value="Off" onClick="relayOff()"/>     //off按鈕
+
+        </form>
+       <h2>電費顯示</h2>      //標題
+       <HR color="red" size="10">      //分隔線
+       <iframe width="800" height="500" src="https://docs.google.com/spreadsheets/d/1OvBBK343XNXFB6uRhDY3KTXOkVHXOeKdz4Ynos_AKF4/pubhtml?gid=313211365&single=true" frameborder="0" allowfullscreen>  //設定一個新的框架網頁
+	</iframe>
+</body>
+</center>
+</html>

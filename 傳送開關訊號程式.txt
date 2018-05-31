@@ -1,0 +1,9 @@
+function relayOn(){
+
+        $.get( href="/arduino/digital/8/0" );
+}
+
+function relayOff(){
+
+        $.get( href="/arduino/digital/8/1" );
+}
